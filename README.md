@@ -39,3 +39,7 @@ We download all in BIBtex and filter by keyword "multicultural" in either title 
 (2) allintitle:Multicultural Artificial Intelligence (7 results)
 
 `fx -q data/queries/google-scholar.sparql -o data/google-scholar.csv`
+
+## Aggregated
+
+`fx -q data/queries/all.sparql -o data/all.csv`
