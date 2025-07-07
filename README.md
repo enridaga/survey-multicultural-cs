@@ -27,5 +27,5 @@ We download all in BIBtex and filter by keyword "multicultural" in either title 
 
 (1) Multicultural Technology (130 results, 13 pages)
 
-(2) Multicultural Artificial Intelligence 
+(2) Multicultural Artificial Intelligence (2 pages)
 

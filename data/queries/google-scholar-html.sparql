@@ -1,0 +1,51 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX fx:    <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz:   <http://sparql.xyz/facade-x/data/>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+PREFIX xhtml: <http://www.w3.org/1999/xhtml#>
+PREFIX dom:   <https://html.spec.whatwg.org/#>
+
+SELECT 
+#    ?year ?title ?author ?doi ?url ?publisher ?booktitle ?editor ?abstract
+#    ?s
+#distinct ?location ?html
+    ?title
+    ?author
+    ?id
+    ?url
+#    ?doi
+WHERE {
+    SERVICE <x-sparql-anything:> {
+        SERVICE <x-sparql-anything:> {
+            fx:properties fx:location "./data/sources/google-scholar/" ; fx:archive.matches ".*.html" .
+            
+            [] fx:anySlot ?htmlFile
+        }
+        
+        BIND ( ?htmlFile as ?location ) .
+        
+        fx:properties fx:location ?location .
+        
+        ?s a xhtml:h3 .
+        
+        OPTIONAL { ?s fx:anySlot [ a xhtml:a ; xhtml:id ?id ; xhtml:href ?url ; dom:innerHTML ?title ] }
+        OPTIONAL { ?s fx:anySlot [ xhtml:class "gs_a" ; dom:innerHTML ?author ]}
+#        FILTER NOT EXISTS {
+#         ?s rdf:_1 [ a xhtml:a ; xhtml:id ?id ; xhtml:href ?url ; dom:innerHTML ?title ] 
+#        }
+        
+#        ?s dom:innerHTML ?html
+#        OPTIONAL { ?s fx:anySlot* ?doi . FILTER ( REGEX(?doi, "doi", "i" )) } 
+#           rdf:_1 [ a xhtml:a ; xyz:id ?id ; xyz:href ?url ].
+        
+#        OPTIONAL { ?s xyz:author ?author}
+#        OPTIONAL { ?s xyz:year ?year}
+#        OPTIONAL { ?s xyz:doi ?doi}
+#        OPTIONAL { ?s xyz:editor ?editor}
+#        OPTIONAL { ?s xyz:url ?url}
+#        OPTIONAL { ?s xyz:publisher ?publisher}
+#        OPTIONAL { ?s xyz:abstract ?abstract}
+#        OPTIONAL { ?s xyz:booktitle ?booktitle}
+    }
+}
