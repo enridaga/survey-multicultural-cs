@@ -1,0 +1,33 @@
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX fx:   <http://sparql.xyz/facade-x/ns/>
+PREFIX xyz:  <http://sparql.xyz/facade-x/data/>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+
+SELECT 
+    ?year ?title ?author ?doi ?url ?publisher ?booktitle ?editor ?abstract
+WHERE {
+    SERVICE <x-sparql-anything:> {
+        
+        SERVICE <x-sparql-anything:> {
+            fx:properties fx:location "./data/sources/science-direct/" ; fx:archive.matches ".*.bib" .
+            
+            [] fx:anySlot ?bibFile
+        }
+        
+        BIND ( ?bibFile AS ?location ) .
+        
+        fx:properties fx:location ?location .
+        
+        ?s xyz:title ?title .
+        
+        OPTIONAL { ?s xyz:author ?author}
+        OPTIONAL { ?s xyz:year ?year}
+        OPTIONAL { ?s xyz:doi ?doi}
+        OPTIONAL { ?s xyz:editor ?editor}
+        OPTIONAL { ?s xyz:url ?url}
+        OPTIONAL { ?s xyz:publisher ?publisher}
+        OPTIONAL { ?s xyz:abstract ?abstract}
+        OPTIONAL { ?s xyz:booktitle ?booktitle}
+    }
+} #order by ?year ?title

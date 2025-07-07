@@ -1,0 +1,234 @@
+year,title,author,doi,url,publisher,booktitle,editor,abstract
+2025,{N}usa{BERT}: Teaching {I}ndo{BERT} to be Multilingual and Multicultural,"Wongso, Wilson  and
+Setiawan, David Samuel  and
+Limcorn, Steven  and
+Joyoadikusumo, Ananto",,https://aclanthology.org/2025.sealp-1.2/,Association for Computational Linguistics,Proceedings of the Second Workshop in South East Asian Language Processing,"Wijaya, Derry  and
+Aji, Alham Fikri  and
+Vania, Clara  and
+Winata, Genta Indra  and
+Purwarianti, Ayu","We present NusaBERT, a multilingual model built on IndoBERT and tailored for Indonesia{'}s diverse languages. By expanding vocabulary and pre-training on a regional corpus, NusaBERT achieves state-of-the-art performance on Indonesian NLU benchmarks, enhancing IndoBERT{'}s multilingual capability. This study also addresses NusaBERT{'}s limitations and encourages further research on Indonesia{'}s underrepresented languages."
+2025,{W}orld{C}uisines: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines,"Winata, Genta Indra  and
+Hudi, Frederikus  and
+Irawan, Patrick Amadeus  and
+Anugraha, David  and
+Putri, Rifki Afina  and
+Yutong, Wang  and
+Nohejl, Adam  and
+Prathama, Ubaidillah Ariq  and
+Ousidhoum, Nedjma  and
+Amriani, Afifa  and
+Rzayev, Anar  and
+Das, Anirban  and
+Pramodya, Ashmari  and
+Adila, Aulia  and
+Wilie, Bryan  and
+Mawalim, Candy Olivia  and
+Lam, Cheng Ching  and
+Abolade, Daud  and
+Chersoni, Emmanuele  and
+Santus, Enrico  and
+Ikhwantri, Fariz  and
+Kuwanto, Garry  and
+Zhao, Hanyang  and
+Wibowo, Haryo Akbarianto  and
+Lovenia, Holy  and
+Cruz, Jan Christian Blaise  and
+Putra, Jan Wira Gotama  and
+Myung, Junho  and
+Susanto, Lucky  and
+Machin, Maria Angelica Riera  and
+Zhukova, Marina  and
+Anugraha, Michael  and
+Adilazuarda, Muhammad Farid  and
+Santosa, Natasha Christabelle  and
+Limkonchotiwat, Peerat  and
+Dabre, Raj  and
+Audino, Rio Alexander  and
+Cahyawijaya, Samuel  and
+Zhang, Shi-Xiong  and
+Salim, Stephanie Yulia  and
+Zhou, Yi  and
+Gui, Yinxuan  and
+Adelani, David Ifeoluwa  and
+Lee, En-Shiun Annie  and
+Okada, Shogo  and
+Purwarianti, Ayu  and
+Aji, Alham Fikri  and
+Watanabe, Taro  and
+Wijaya, Derry Tanti  and
+Oh, Alice  and
+Ngo, Chong-Wah",10.18653/v1/2025.naacl-long.167,https://aclanthology.org/2025.naacl-long.167/,Association for Computational Linguistics,Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers),"Chiruzzo, Luis  and
+Ritter, Alan  and
+Wang, Lu","Vision Language Models (VLMs) often struggle with culture-specific knowledge, particularly in languages other than English and in underrepresented cultural contexts. To evaluate their understanding of such knowledge, we introduce WorldCuisines, a massive-scale benchmark for multilingual and multicultural, visually grounded language understanding. This benchmark includes a visual question answering (VQA) dataset with text-image pairs across 30 languages and dialects, spanning 9 language families and featuring over 1 million data points, making it the largest multicultural VQA benchmark to date. It includes tasks for identifying dish names and their origins. We provide evaluation datasets in two sizes (12k and 60k instances) alongside a training dataset (1 million instances). Our findings show that while VLMs perform better with correct location context, they struggle with adversarial contexts and predicting specific regional cuisines and languages. To support future research, we release a knowledge base with annotated food entries and images along with the VQA data."
+2025,"{M}ulti$^3${H}ate: Multimodal, Multilingual, and Multicultural Hate Speech Detection with Vision{--}Language Models","Bui, Minh Duc  and
+Wense, Katharina Von Der  and
+Lauscher, Anne",10.18653/v1/2025.naacl-long.490,https://aclanthology.org/2025.naacl-long.490/,Association for Computational Linguistics,Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers),"Chiruzzo, Luis  and
+Ritter, Alan  and
+Wang, Lu","Hate speech moderation on global platforms poses unique challenges due to the multimodal and multilingual nature of content, along with the varying cultural perceptions. How well do current vision-language models (VLMs) navigate these nuances? To investigate this, we create the first multimodal and multilingual parallel hate speech dataset, annotated by a multiculturally diverse set of annotators, called Multi$^3$Hate. It contains 300 parallel meme samples across 5 languages: English, German, Spanish, Hindi, and Mandarin. We demonstrate that cultural background significantly affects multimodal hate speech annotation in our dataset. The average pairwise agreement among countries is just 74{\%}, significantly lower than that of randomly selected annotator groups. Our qualitative analysis indicates that the lowest pairwise label agreement{---}only 67{\%} between the USA and India{---}can be attributed to cultural factors. We then conduct experiments with 5 large VLMs in a zero-shot setting, finding that these models align more closely with annotations from the US than with those from other cultures, even when the memes and prompts are presented in the native language of the other culture."
+2025,{KODIS}: A Multicultural Dispute Resolution Dialogue Corpus,"Hale, James Anthony  and
+Rakshit, Sushrita  and
+Chawla, Kushal  and
+Brett, Jeanne M  and
+Gratch, Jonathan",10.18653/v1/2025.naacl-long.637,https://aclanthology.org/2025.naacl-long.637/,Association for Computational Linguistics,Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers),"Chiruzzo, Luis  and
+Ritter, Alan  and
+Wang, Lu",
+2025,Is It {N}avajo? Accurate Language Detection for Endangered Athabaskan Languages,"Yang, Ivory  and
+Ma, Weicheng  and
+Zhang, Chunhui  and
+Vosoughi, Soroush",10.18653/v1/2025.naacl-short.24,https://aclanthology.org/2025.naacl-short.24/,Association for Computational Linguistics,Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers),"Chiruzzo, Luis  and
+Ritter, Alan  and
+Wang, Lu","Endangered languages, such as Navajo{---}the most widely spoken Native American language{---}are significantly underrepresented in contemporary language technologies, exacerbating the challenges of their preservation and revitalization. This study evaluates Google{'}s Language Identification (LangID) tool, which does not currently support any Native American languages. To address this, we introduce a random forest classifier trained on Navajo and twenty erroneously suggested languages by LangID. Despite its simplicity, the classifier achieves near-perfect accuracy (97-100{\%}). Additionally, the model demonstrates robustness across other Athabaskan languages{---}a family of Native American languages spoken primarily in Alaska, the Pacific Northwest, and parts of the Southwestern United States{---}suggesting its potential for broader application. Our findings underscore the pressing need for NLP systems that prioritize linguistic diversity and adaptability over centralized, one-size-fits-all solutions, especially in supporting underrepresented languages in a multicultural world. This work directly contributes to ongoing efforts to address cultural biases in language models and advocates for the development of culturally localized NLP tools that serve diverse linguistic communities."
+2025,On Using {A}rabic Language Dialects in Recommendation Systems,"Alshabanah, Abdulla  and
+Annavaram, Murali",10.18653/v1/2025.findings-naacl.115,https://aclanthology.org/2025.findings-naacl.115/,Association for Computational Linguistics,Findings of the Association for Computational Linguistics: NAACL 2025,"Chiruzzo, Luis  and
+Ritter, Alan  and
+Wang, Lu","While natural language processing (NLP) techniques have been applied to user reviews in recommendation systems, the potential of leveraging Arabic dialects in this context remains unexplored. Arabic is spoken by over 420 million people, with significant dialectal variation across regions. These dialects, often classified as low-resource languages, present both challenges and opportunities for machine learning applications. This paper represents the first attempt to incorporate Arabic dialects as a signal in recommendation systems. We explore both explicit and implicit approaches for integrating Arabic dialect information from user reviews, demonstrating its impact on improving recommendation performance. Our findings highlight the potential for leveraging dialectal diversity in Arabic to enhance recommendation systems and encourage further research at the intersection of NLP and recommendation systems within the Arab multicultural world."
+2025,Human and {LLM}-Based Resume Matching: An Observational Study,"Vaishampayan, Swanand  and
+Leary, Hunter  and
+Alebachew, Yoseph Berhanu  and
+Hickman, Louis  and
+Stevenor, Brent A.  and
+Beck, Weston  and
+Brown, Chris",10.18653/v1/2025.findings-naacl.270,https://aclanthology.org/2025.findings-naacl.270/,Association for Computational Linguistics,Findings of the Association for Computational Linguistics: NAACL 2025,"Chiruzzo, Luis  and
+Ritter, Alan  and
+Wang, Lu","Resume matching assesses the extent to which candidates qualify for jobs based on the content of resumes. This process increasingly uses natural language processing (NLP) techniques to automate parsing and rating tasks{---}saving time and effort. Large language models (LLMs) are increasingly used for this purpose{---}thus, we explore their capabilities for resume matching in an observational study. We compare zero-shot GPT-4 and human ratings for 736 resumes submitted to job openings from diverse fields using real-world evaluation criteria. We also study the effects of prompt engineering techniques on GPT-4 ratings and compare differences in GPT-4 and human ratings across racial and gender groups. Our results show: LLM scores correlate minorly with humans, suggesting they are not interchangeable; prompt engineering such as CoT improves the quality of LLM ratings; and LLM scores do not show larger group differences (i.e., bias) than humans. Our findings provide implications for LLM-based resume rating to promote more fair and NLP-based resume matching in a multicultural world."
+2025,Evaluation of Multilingual Image Captioning: How far can we get with {CLIP} models?,"Gomes, Goncalo Emanuel Cavaco  and
+Zerva, Chrysoula  and
+Martins, Bruno",10.18653/v1/2025.findings-naacl.287,https://aclanthology.org/2025.findings-naacl.287/,Association for Computational Linguistics,Findings of the Association for Computational Linguistics: NAACL 2025,"Chiruzzo, Luis  and
+Ritter, Alan  and
+Wang, Lu","The evaluation of image captions, looking at both linguistic fluency and semantic correspondence to visual contents, has witnessed a significant effort. Still, despite advancements such as the CLIPScore metric, multilingual captioning evaluation has remained relatively unexplored. This work presents several strategies, and extensive experiments, related to evaluating CLIPScore variants in multilingual settings. To address the lack of multilingual test data, we consider two different strategies: (1) using quality aware machine-translated datasets with human judgements, and (2) re-purposing multilingual datasets that target semantic inference and reasoning. Our results highlight the potential of finetuned multilingual models to generalize across languages and to handle complex linguistic challenges. Tests with machine-translated data show that multilingual CLIPScore models can maintain a high correlation with human judgements across different languages, and additional tests with natively multilingual and multicultural data further attest to the high-quality assessments."
+2024,Stanceosaurus 2.0 - Classifying Stance Towards {R}ussian and {S}panish Misinformation,"Lavrouk, Anton  and
+Ligon, Ian  and
+Zheng, Jonathan  and
+Naous, Tarek  and
+Xu, Wei  and
+Ritter, Alan",,https://aclanthology.org/2024.wnut-1.4/,Association for Computational Linguistics,Proceedings of the Ninth Workshop on Noisy and User-generated Text (W-NUT 2024),"van der Goot, Rob  and
+Bak, JinYeong  and
+M{\""u}ller-Eberstein, Max  and
+Xu, Wei  and
+Ritter, Alan  and
+Baldwin, Tim","The Stanceosaurus corpus (Zheng et al., 2022) was designed to provide high-quality, annotated, 5-way stance data extracted from Twitter, suitable for analyzing cross-cultural and cross-lingual misinformation. In the Stanceosaurus 2.0 iteration, we extend this framework to encompass Russian and Spanish. The former is of current significance due to prevalent misinformation amid escalating tensions with the West and the violent incursion into Ukraine. The latter, meanwhile, represents an enormous community that has been largely overlooked on major social media platforms. By incorporating an additional 3,874 Spanish and Russian tweets over 41 misinformation claims, our objective is to support research focused on these issues. To demonstrate the value of this data, we employed zero-shot cross-lingual transfer on multilingual BERT, yielding results on par with the initial Stanceosaurus study with a macro F1 score of 43 for both languages. This underlines the viability of stance classification as an effective tool for identifying multicultural misinformation."
+2024,"Address forms, politeness, and framing among multicultural students in an {I}ndonesian university","Yuwono, Muhammad Jawad  and
+Santoso, Wulandari",,https://aclanthology.org/2024.paclic-1.106/,Tokyo University of Foreign Studies,"Proceedings of the 38th Pacific Asia Conference on Language, Information and Computation","Oco, Nathaniel  and
+Dita, Shirley N.  and
+Borlongan, Ariane Macalinga  and
+Kim, Jong-Bok",
+2024,{S}ea{E}val for Multilingual Foundation Models: From Cross-Lingual Alignment to Cultural Reasoning,"Wang, Bin  and
+Liu, Zhengyuan  and
+Huang, Xin  and
+Jiao, Fangkai  and
+Ding, Yang  and
+Aw, AiTi  and
+Chen, Nancy",10.18653/v1/2024.naacl-long.22,https://aclanthology.org/2024.naacl-long.22/,Association for Computational Linguistics,Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers),"Duh, Kevin  and
+Gomez, Helena  and
+Bethard, Steven","We present SeaEval, a benchmark for multilingual foundation models. In addition to characterizing how these models understand and reason with natural language, we also investigate how well they comprehend cultural practices, nuances, and values. Alongside standard accuracy metrics, we investigate the brittleness of foundation models in the dimensions of semantics and multilinguality. Our analyses span both open-sourced and closed models, leading to empirical results across classic NLP tasks, reasoning, and cultural comprehension. Key findings indicate (1) Many models exhibit varied behavior when given paraphrased instructions. (2) Many models still suffer from exposure bias (e.g., positional bias, majority label bias). (3) For questions rooted in factual, scientific, and commonsense knowledge, consistent responses are expected across multilingual queries that are semantically equivalent. Yet, most models surprisingly demonstrate inconsistent performance on these queries. (4) Multilingually-trained models have not attained ``balanced multilingual'' capabilities. Our endeavors underscore the need for more generalizable semantic representations and enhanced multilingual contextualization. SeaEval can serve as a launchpad for more thorough investigations and evaluations for multilingual and multicultural scenarios."
+2024,Are Multilingual {LLM}s Culturally-Diverse Reasoners? An Investigation into Multicultural Proverbs and Sayings,"Liu, Chen  and
+Koto, Fajri  and
+Baldwin, Timothy  and
+Gurevych, Iryna",10.18653/v1/2024.naacl-long.112,https://aclanthology.org/2024.naacl-long.112/,Association for Computational Linguistics,Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers),"Duh, Kevin  and
+Gomez, Helena  and
+Bethard, Steven","Large language models (LLMs) are highly adept at question answering and reasoning tasks, but when reasoning in a situational context, human expectations vary depending on the relevant cultural common ground. As languages are associated with diverse cultures, LLMs should also be culturally-diverse reasoners. In this paper, we study the ability of a wide range of state-of-the-art multilingual LLMs (mLLMs) to reason with proverbs and sayings in a conversational context. Our experiments reveal that: (1) mLLMs ``know'' limited proverbs and memorizing proverbs does not mean understanding them within a conversational context; (2) mLLMs struggle to reason with figurative proverbs and sayings, and when asked to select the wrong answer (instead of asking it to select the correct answer); and (3) there is a ``culture gap'' in mLLMs when reasoning about proverbs and sayings translated from other languages. We construct and release our evaluation dataset MAPS (MulticulturAl Proverbs and Sayings) for proverb understanding with conversational context for six different languages."
+2024,M5 {--} A Diverse Benchmark to Assess the Performance of Large Multimodal Models Across Multilingual and Multicultural Vision-Language Tasks,"Schneider, Florian  and
+Sitaram, Sunayana",10.18653/v1/2024.findings-emnlp.250,https://aclanthology.org/2024.findings-emnlp.250/,Association for Computational Linguistics,Findings of the Association for Computational Linguistics: EMNLP 2024,"Al-Onaizan, Yaser  and
+Bansal, Mohit  and
+Chen, Yun-Nung","Since the release of ChatGPT, the field of Natural Language Processing has experienced rapid advancements, particularly in Large Language Models (LLMs) and their multimodal counterparts, Large Multimodal Models (LMMs). Despite their impressive capabilities, LLMs often exhibit significant performance disparities across different languages and cultural contexts, as demonstrated by various text-only benchmarks. However, current research lacks such benchmarks for multimodal visio-linguistic settings. This work fills this gap by introducing M5, the first comprehensive benchmark designed to evaluate LMMs on diverse vision-language tasks within a multilingual and multicultural context. M5 includes eight datasets covering five tasks and 41 languages, with a focus on underrepresented languages and culturally diverse images. Furthermore, we introduce two novel datasets, M5-VGR and M5-VLOD, including a new Visio-Linguistic Outlier Detection task, in which all evaluated open-source models fail to significantly surpass the random baseline. Through extensive evaluation and analyses, we highlight substantial task-agnostic performance disparities between high- and low-resource languages. Moreover, we show that larger models do not necessarily outperform smaller ones in a multilingual setting."
+2024,From Local Concepts to Universals: Evaluating the Multicultural Understanding of Vision-Language Models,"Bhatia, Mehar  and
+Ravi, Sahithya  and
+Chinchure, Aditya  and
+Hwang, EunJeong  and
+Shwartz, Vered",10.18653/v1/2024.emnlp-main.385,https://aclanthology.org/2024.emnlp-main.385/,Association for Computational Linguistics,Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing,"Al-Onaizan, Yaser  and
+Bansal, Mohit  and
+Chen, Yun-Nung","Despite recent advancements in vision-language models, their performance remains suboptimal on images from non-western cultures due to underrepresentation in training datasets. Various benchmarks have been proposed to test models' cultural inclusivity. Still, they have limited coverage of cultures and do not adequately assess cultural diversity across universal and culture-specific local concepts. To address these limitations, we introduce the GlobalRG benchmark, comprising two challenging tasks: retrieval across universals and cultural visual grounding. The former task entails retrieving culturally diverse images for universal concepts from 50 countries, while the latter aims at grounding culture-specific concepts within images from 15 countries. Our evaluation across a wide range of models reveals that the performance varies significantly across cultures {--} underscoring the necessity for enhancing multicultural understanding in vision-language models."
+2024,Emojilingo: Harnessing {AI} to Translate Words into Emojis,"Chiusaroli, Francesca  and
+Sangati, Federico  and
+Monti, Johanna  and
+Pierucci, Maria Laura  and
+Uricchio, Tiberio",,https://aclanthology.org/2024.clicit-1.25/,CEUR Workshop Proceedings,Proceedings of the 10th Italian Conference on Computational Linguistics (CLiC-it 2024),"Dell'Orletta, Felice  and
+Lenci, Alessandro  and
+Montemagni, Simonetta  and
+Sprugnoli, Rachele","This paper presents an AI experiment of translation in emoji conducted on a glossary from Dante Alighieri{'}s Comedy. The experiment is part of a project aiming to build up an automated emojibased pivot language providing an interlingua as a tool for linguistic simplification, accessibility, and international communication: Emojilingo. The present test involves human (Emojitaliano) and machine (Chat-GPT) translations in a comparative analysis to devise an automated integrated model highlighting emojis' expressive ability in transferring senses, clarifying semantic obscurities and ambiguities, and simplifying language. A first preliminary evaluation highlights Chat-GPT{'}s ability to deal with a classic archaic literary vocabulary, also raising issues on managing criteria for better grasping the meanings and forms and about the multicultural extent of content transfer."
+2024,Are Generative Language Models Multicultural? A Study on {H}ausa Culture and Emotions using {C}hat{GPT},"Ahmad, Ibrahim  and
+Dudy, Shiran  and
+Ramachandranpillai, Resmi  and
+Church, Kenneth",10.18653/v1/2024.c3nlp-1.8,https://aclanthology.org/2024.c3nlp-1.8/,Association for Computational Linguistics,Proceedings of the 2nd Workshop on Cross-Cultural Considerations in NLP,"Prabhakaran, Vinodkumar  and
+Dev, Sunipa  and
+Benotti, Luciana  and
+Hershcovich, Daniel  and
+Cabello, Laura  and
+Cao, Yong  and
+Adebara, Ife  and
+Zhou, Li","Large Language Models (LLMs), such as ChatGPT, are widely used to generate content for various purposes and audiences. However, these models may not reflect the cultural and emotional diversity of their users, especially for low-resource languages. In this paper, we investigate how ChatGPT represents Hausa{'}s culture and emotions. We compare responses generated by ChatGPT with those provided by native Hausa speakers on 37 culturally relevant questions. We conducted experiments using emotion analysis. We also used two similarity metrics to measure the alignment between human and ChatGPT responses. We also collect human participants ratings and feedback on ChatGPT responses. Our results show that ChatGPT has some level of similarity to human responses, but also exhibits some gaps and biases in its knowledge and awareness of Hausa culture and emotions. We discuss the implications and limitations of our methodology and analysis and suggest ways to improve the performance and evaluation of LLMs for low-resource languages."
+2023,Multilingual Language Models are not Multicultural: A Case Study in Emotion,"Havaldar, Shreya  and
+Singhal, Bhumika  and
+Rai, Sunny  and
+Liu, Langchen  and
+Guntuku, Sharath Chandra  and
+Ungar, Lyle",10.18653/v1/2023.wassa-1.19,https://aclanthology.org/2023.wassa-1.19/,Association for Computational Linguistics,"Proceedings of the 13th Workshop on Computational Approaches to Subjectivity, Sentiment, {\&} Social Media Analysis","Barnes, Jeremy  and
+De Clercq, Orph{\'e}e  and
+Klinger, Roman","Emotions are experienced and expressed differently across the world. In order to use Large Language Models (LMs) for multilingual tasks that require emotional sensitivity, LMs must reflect this cultural variation in emotion. In this study, we investigate whether the widely-used multilingual LMs in 2023 reflect differences in emotional expressions across cultures and languages. We find that embeddings obtained from LMs (e.g., XLM-RoBERTa) are Anglocentric, and generative LMs (e.g., ChatGPT) reflect Western norms, even when responding to prompts in other languages. Our results show that multilingual LMs do not successfully learn the culturally appropriate nuances of emotion and we highlight possible research directions towards correcting this."
+2023,Cultural Concept Adaptation on Multimodal Reasoning,"Li, Zhi  and
+Zhang, Yin",10.18653/v1/2023.emnlp-main.18,https://aclanthology.org/2023.emnlp-main.18/,Association for Computational Linguistics,Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing,"Bouamor, Houda  and
+Pino, Juan  and
+Bali, Kalika","Developing cultural adaptation methods is important, which can improve the model performance on the low-resource ones and provide more equitable opportunities for everyone to benefit from advanced technology. Past methods primarily focused on multilingual and multimodal capabilities, and the improvement of multicultural competence is still an unexplored problem. This is largely due to the difficulty of data scarcity and expensive annotation. In this paper, we navigate this uncharted territory by leveraging high-resource cultures to facilitate comprehension of low-resource ones. We first introduce an annotation-free method for cultural-concept adaptation and construct a concept mapping set. To facilitate the model{'}s comprehension of cultural-concept mappings, we propose a new multimodal data augmentation called CultureMixup. This approach employs a three-tier code-switching strategy on textual sentences. Additionally, it uses a cultural concept-based mixup method for the images. This combination effectively generates new data instances across culture, phrase, word, and image levels. For visually grounded reasoning across languages and cultures, experimental results on five languages show that our method consistently improves performance for four existing multilingual and multimodal models on both zero-shot and few-shot settings."
+2023,"Cross-Cultural Analysis of Human Values, Morals, and Biases in Folk Tales","Wu, Winston  and
+Wang, Lu  and
+Mihalcea, Rada",10.18653/v1/2023.emnlp-main.311,https://aclanthology.org/2023.emnlp-main.311/,Association for Computational Linguistics,Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing,"Bouamor, Houda  and
+Pino, Juan  and
+Bali, Kalika","Folk tales are strong cultural and social influences in children{'}s lives, and they are known to teach morals and values. However, existing studies on folk tales are largely limited to European tales. In our study, we compile a large corpus of over 1,900 tales originating from 27 diverse cultures across six continents. Using a range of lexicons and correlation analyses, we examine how human values, morals, and gender biases are expressed in folk tales across cultures. We discover differences between cultures in prevalent values and morals, as well as cross-cultural trends in problematic gender biases. Furthermore, we find trends of reduced value expression when examining public-domain fiction stories, extrinsically validate our analyses against the multicultural Schwartz Survey of Cultural Values and the Global Gender Gap Report, and find traditional gender biases associated with values, morals, and agency. This large-scale cross-cultural study of folk tales paves the way towards future studies on how literature influences and reflects cultural norms."
+2022,Stanceosaurus: Classifying Stance Towards Multicultural Misinformation,"Zheng, Jonathan  and
+Baheti, Ashutosh  and
+Naous, Tarek  and
+Xu, Wei  and
+Ritter, Alan",10.18653/v1/2022.emnlp-main.138,https://aclanthology.org/2022.emnlp-main.138/,Association for Computational Linguistics,Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing,"Goldberg, Yoav  and
+Kozareva, Zornitsa  and
+Zhang, Yue","We present Stanceosaurus, a new corpus of 28,033 tweets in English, Hindi and Arabic annotated with stance towards 250 misinformation claims. As far as we are aware, it is the largest corpus annotated with stance towards misinformation claims. The claims in Stanceosaurus originate from 15 fact-checking sources that cover diverse geographical regions and cultures. Unlike existing stance datasets, we introduce a more fine-grained 5-class labeling strategy with additional subcategories to distinguish implicit stance. Pre-trained transformer-based stance classifiers that are fine-tuned on our corpus show good generalization on unseen claims and regional claims from countries outside the training data. Cross-lingual experiments demonstrate Stanceosaurus' capability of training multilingual models, achieving 53.1 F1 on Hindi and 50.4 F1 on Arabic without any target-language fine-tuning. Finally, we show how a domain adaptation method can be used to improve performance on Stanceosaurus using additional RumourEval-2019 data. We will make Stanceosaurus publicly available to the research community upon publication and hope it will encourage further work on misinformation identification across languages and cultures."
+2022,Challenges and Strategies in Cross-Cultural {NLP},"Hershcovich, Daniel  and
+Frank, Stella  and
+Lent, Heather  and
+de Lhoneux, Miryam  and
+Abdou, Mostafa  and
+Brandl, Stephanie  and
+Bugliarello, Emanuele  and
+Cabello Piqueras, Laura  and
+Chalkidis, Ilias  and
+Cui, Ruixiang  and
+Fierro, Constanza  and
+Margatina, Katerina  and
+Rust, Phillip  and
+S{\o}gaard, Anders",10.18653/v1/2022.acl-long.482,https://aclanthology.org/2022.acl-long.482/,Association for Computational Linguistics,Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),"Muresan, Smaranda  and
+Nakov, Preslav  and
+Villavicencio, Aline","Various efforts in the Natural Language Processing (NLP) community have been made to accommodate linguistic diversity and serve speakers of many different languages. However, it is important to acknowledge that speakers and the content they produce and require, vary not just by language, but also by culture. Although language and culture are tightly linked, there are important differences. Analogous to cross-lingual and multilingual NLP, cross-cultural and multicultural NLP considers these differences in order to better serve users of NLP systems. We propose a principled framework to frame these efforts, and survey existing and potential strategies."
+2021,Visually Grounded Reasoning across Languages and Cultures,"Liu, Fangyu  and
+Bugliarello, Emanuele  and
+Ponti, Edoardo Maria  and
+Reddy, Siva  and
+Collier, Nigel  and
+Elliott, Desmond",10.18653/v1/2021.emnlp-main.818,https://aclanthology.org/2021.emnlp-main.818/,Association for Computational Linguistics,Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing,"Moens, Marie-Francine  and
+Huang, Xuanjing  and
+Specia, Lucia  and
+Yih, Scott Wen-tau","The design of widespread vision-and-language datasets and pre-trained encoders directly adopts, or draws inspiration from, the concepts and images of ImageNet. While one can hardly overestimate how much this benchmark contributed to progress in computer vision, it is mostly derived from lexical databases and image queries in English, resulting in source material with a North American or Western European bias. Therefore, we devise a new protocol to construct an ImageNet-style hierarchy representative of more languages and cultures. In particular, we let the selection of both concepts and images be entirely driven by native speakers, rather than scraping them automatically. Specifically, we focus on a typologically diverse set of languages, namely, Indonesian, Mandarin Chinese, Swahili, Tamil, and Turkish. On top of the concepts and images obtained through this new protocol, we create a multilingual dataset for Multicultural Reasoning over Vision and Language (MaRVL) by eliciting statements from native speaker annotators about pairs of images. The task consists of discriminating whether each grounded statement is true or false. We establish a series of baselines using state-of-the-art models and find that their cross-lingual transfer performance lags dramatically behind supervised performance in English. These results invite us to reassess the robustness and accuracy of current state-of-the-art models beyond a narrow domain, but also open up new exciting challenges for the development of truly multilingual and multicultural systems."
+2020,Identifications of Speaker Ethnicity in {S}outh-{E}ast {E}ngland: Multicultural {L}ondon {E}nglish as a Divisible Perceptual Variety,"Cole, Amanda",,https://aclanthology.org/2020.cllrd-1.7/,European Language Resources Association,Proceedings of the LREC 2020 Workshop on ``Citizen Linguistics in Language Resource Development'',"Fiumara, James  and
+Cieri, Christopher  and
+Liberman, Mark  and
+Callison-Burch, Chris","This study uses crowdsourcing through LanguageARC to collect data on levels of accuracy in the identification of speakers' ethnicities. Ten participants (5 US; 5 South-East England) classified lexically identical speech stimuli from a corpus of 227 speakers aged 18-33yrs from South-East England into the main ``ethnic'' groups in Britain: White British, Black British and Asian British. Firstly, the data reveals that there is no significant geographic proximity effect on performance between US and British participants. Secondly, results contribute to recent work suggesting that despite the varying heritages of young, ethnic minority speakers in London, they speak an innovative and emerging variety: Multicultural London English (MLE) (e.g. Cheshire et al., 2011). Countering this, participants found perceptual linguistic differences between speakers of all 3 ethnicities (80.7{\%} accuracy). The highest rate of accuracy (96{\%}) was when identifying the ethnicity of Black British speakers from London whose speech seems to form a distinct, perceptual category. Participants also perform substantially better than chance at identifying Black British and Asian British speakers who are not from London (80{\%} and 60{\%} respectively). This suggests that MLE is not a single, homogeneous variety but instead, there are perceptual linguistic differences by ethnicity which transcend the borders of London."
+2018,What Causes the Differences in Communication Styles? A Multicultural Study on Directness and Elaborateness,"Miehle, Juliana  and
+Minker, Wolfgang  and
+Ultes, Stefan",,https://aclanthology.org/L18-1625/,European Language Resources Association (ELRA),Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018),"Calzolari, Nicoletta  and
+Choukri, Khalid  and
+Cieri, Christopher  and
+Declerck, Thierry  and
+Goggi, Sara  and
+Hasida, Koiti  and
+Isahara, Hitoshi  and
+Maegaard, Bente  and
+Mariani, Joseph  and
+Mazo, H{\'e}l{\`e}ne  and
+Moreno, Asuncion  and
+Odijk, Jan  and
+Piperidis, Stelios  and
+Tokunaga, Takenobu",
+2017,"Legal Framework, Dataset and Annotation Schema for Socially Unacceptable Online Discourse Practices in {S}lovene","Fi{\v{s}}er, Darja  and
+Erjavec, Toma{\v{z}}  and
+Ljube{\v{s}}i{\'c}, Nikola",10.18653/v1/W17-3007,https://aclanthology.org/W17-3007/,Association for Computational Linguistics,Proceedings of the First Workshop on Abusive Language Online,"Waseem, Zeerak  and
+Chung, Wendy Hui Kyong  and
+Hovy, Dirk  and
+Tetreault, Joel","In this paper we present the legal framework, dataset and annotation schema of socially unacceptable discourse practices on social networking platforms in Slovenia. On this basis we aim to train an automatic identification and classification system with which we wish contribute towards an improved methodology, understanding and treatment of such practices in the contemporary, increasingly multicultural information society."
